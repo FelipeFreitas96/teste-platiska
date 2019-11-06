@@ -1,0 +1,52 @@
+body {
+  background: #4a0079;
+  font-family: "Roboto";
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  flex: 1;
+  background-color: #360952;  
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 12px;
+}
+
+.todoList {
+  padding: 0px;
+  margin: 20px;
+}
+
+.todoList li {
+  background-color: white;
+  padding: 10px 20px;
+  margin: 8px 0px;
+  list-style-type: none;
+  box-shadow: 1px 1px 3px 0px black;
+  border-radius: 3px;
+  color: #686868;
+}
+
+.addButton:before {
+  content: '+';
+}
+
+.addButton {
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: #5fdea3;
+  border-radius: 100px;
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+}

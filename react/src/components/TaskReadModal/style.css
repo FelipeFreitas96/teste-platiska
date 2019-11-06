@@ -1,0 +1,79 @@
+.taskmodal-blackscreen {
+  background: #00000080;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  position: absolute;
+}
+
+.taskmodal-modal {
+  background: white;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 1000;
+  width: calc(100vw - 60px);
+  height: calc(100vh - 60px);
+  margin: 30px;
+} 
+
+.taskmodal-board {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.taskmodal-title {
+  border-bottom: 1px solid gray;
+  padding: 0px 0px 10px 0px;
+  flex-direction: row;
+}
+
+.taskmodal-title span {
+  font-size: 28px;
+  color: #363636;
+}
+
+.taskmodal-content {
+  margin: 20px 0px;
+  flex: 1;
+}
+
+.taskmodal-content span {
+  color: #959595;
+}
+
+.taskmodal-buttons {
+  display: flex;
+}
+
+.taskmodal-buttons input:first-child {
+  background: #e28686;
+  border-bottom-left-radius: 3px;
+}
+
+.taskmodal-buttons input:last-child {
+  background: #86b4e2;
+  border-bottom-right-radius: 3px;
+}
+
+.taskmodal-close {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.taskmodal-close:before {
+  content: 'x';
+}
+
+.taskmodal-buttons input {
+  flex: 1;
+  border: 0px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+}
